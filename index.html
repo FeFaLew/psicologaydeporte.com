@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Psicología Deportiva</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header id="inicio">
+    <h1>Lic. Estefanía Lewczuk – Psicología Deportiva</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#servicios">Servicios</a></li>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="cursos.html" target="_blank">Cursos</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+    <script>
+        function toggleMenu() {
+          const nav = document.querySelector('nav');
+          nav.classList.toggle('active');
+        }
+    </script>
+
+    <main>
+      <!-- Sección principal con imagen de fondo -->
+      <section class="hero">
+        <img src="images/drobotdean.jpg" alt="Personas practicando artes marciales">
+        <div class="hero-texto">
+          <h2>Entrena tu mente. Mejora tu juego.</h2>
+          <p>Psicología aplicada al deporte para potenciar el rendimiento, la concentración y el bienestar.</p>
+        </div>
+        <p class="credit">📸 drobotdean (Freepick)</p>
+      </section>
+
+   <!-- SOBRE MÍ -->
+   <section class="sobre-mi">
+    <div class="sobre-mi-contenido">
+      <img src="images/foto.jpg" alt="Foto personal">
+      <div class="texto">
+        <h2>Sobre mí</h2>
+        <p>
+          Me formé como psicóloga en la Universidad de Buenos Aires y, a lo largo de los años, fui integrando distintas herramientas y enfoques para acompañar de manera profunda y práctica. Trabajo desde una mirada integral que incluye técnicas como la bioenergética, el mindfulness y la meditación.
+          <br><br>
+          Practico deportes y mantengo una vida saludable, lo cual me llevó a unir la psicología con el movimiento, desarrollando un enfoque centrado en potenciar el rendimiento físico y mental de las personas, desde lo cotidiano hasta lo más profundo del ser.
+        </p>
+      </div>
+      <a href="#contacto" class="boton-contacto">Contactame</a>
+    </div>
+   </section>
+  
+   <section class="servicios" id="servicios">
+      <h2>Servicios</h2>
+      <div class="servicios-grid">
+        <div class="servicio">
+          <h3>🧠 Acompañamiento Psicológico Deportivo</h3>
+          <p>Sesiones individuales para trabajar emociones, motivación, concentración y confianza en el deporte.</p>
+        </div>
+        <div class="servicio">
+          <h3>🧘‍♀️ Entrenamiento Mental</h3>
+          <p>Técnicas de respiración, mindfulness, visualización y bioenergética aplicadas al rendimiento.</p>
+        </div>
+        <div class="servicio">
+          <h3>🎓 Talleres y Cursos</h3>
+          <p>Espacios grupales para deportistas, entrenadores y equipos sobre salud mental y deporte.</p>
+        </div>
+      </div>
+    </section>
+
+   <section class="blog" id="blog">
+      <h2>Blog</h2>
+      <div class="articulos">
+        
+        <article>
+          <img src="images/samuel_castro.jpg" alt="Psicología en artes marciales">
+          <h3>Psicología en artes marciales</h3>
+          <p>Descubrí cómo el trabajo mental potencia el entrenamiento físico, la disciplina y la gestión emocional en deportes de combate.</p>
+          <a href="articulo-artes-marciales.html">Leer más</a>
+        </article>
+    
+        <article>
+          <img src="images/pikisuperstar.jpg" alt="Entrenamiento mental">
+          <h3>Fortaleza mental y rendimiento</h3>
+          <p>Claves para cultivar la resiliencia y la concentración durante entrenamientos exigentes y competencias.</p>
+          <a href="articulo-fortaleza-rendimiento.html">Leer más</a>
+        </article>
+
+        <article>
+          <img src="images/alliance_football_club.jpg" alt="Motivación en el deporte en equipo">
+          <h3>Motivación y trabajo en equipo</h3>
+          <p>Exploramos cómo la psicología ayuda a construir cohesión grupal y mantener la motivación en equipos deportivos.</p>
+          <a href="articulo-motivacion-trabajo.html">Leer más</a>
+        </article>
+    
+        <article>
+          <img src="images/Futbol_Ilustracion.jpg" alt="Emoción y juego">
+          <h3>Emoción y juego</h3>
+          <p>La dimensión emocional en el deporte: cómo influyen las emociones en el rendimiento y la experiencia lúdica.</p>
+          <a href="articulo-emocion-juego.html">Leer más</a>
+        </article>
+    
+      </div>
+    </section>
+
+   </section>
+   <section id="contacto" class="contacto">
+    <h2>Contacto</h2>
+    <p class="intro-formulario">Si querés consultarme o tenés alguna duda, completá el siguiente formulario:</p>
+    <form action="https://formsubmit.co/estefanialew@gmail.com" method="POST">
+      <input type="text" name="nombre" required placeholder="Tu nombre">
+      <input type="email" name="email" required placeholder="Tu email">
+      <textarea name="mensaje" rows="5" required placeholder="Tu mensaje"></textarea>
+      <button type="submit">Enviar</button>
+    
+      <!-- Opcionales -->
+      <input type="hidden" name="_next" value="https://tusitio.com/gracias.html">
+      <input type="hidden" name="_captcha" value="false">
+    </form>
+  </section>
+  
+  <section id="final">
+    <h2>Contacto</h2>
+    <p>Puedes escribirme a <a href="mailto:estefanialew@gmail.com">estefanialew@gmail.com</a> </p>
+  </section>
+
+   <footer>
+    <p>&copy; 2025 Lic. Estefanía Lewczuk – Psicología Deportiva</p>
+    <p>Todos los derechos reservados</p>
+   </footer>
+</body>
+</html>  
